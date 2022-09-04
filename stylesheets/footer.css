@@ -1,0 +1,136 @@
+footer .quote blockquote p {
+    color: black;
+    font-size: 54px;
+    font-family: "Apple Chancery";
+    line-height: 1.4;
+    text-align: center;
+    padding: 56px 145px;
+}
+
+footer .contact {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-height: 200px;
+    background-color: #8B0DE6;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer .contact .section1 {
+    display: flex;
+    flex-direction: column;
+    height: 72px;
+    margin-top: 62px;
+    margin-left: 60px;
+    justify-content: space-between;
+}
+
+footer .contact .section1 .logotype {
+    font-size: 20px;
+    font-family: phosphate, sans-serif;
+
+}
+
+footer .contact .section1 p {
+    font-size: 10px;
+
+}
+
+footer .contact .section2 {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    height: 64px;
+    margin-left: 108px;
+    margin-top: 58px;
+    justify-content: space-between;
+}
+
+footer .contact .section3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 14px;
+    height: 64px;
+    margin-top: 58px;
+    margin-left: 80px;
+}
+
+footer .contact .section3 .facebook,
+footer .contact .section3 .twitter,
+footer .contact .section3 .instagram {
+    display: flex;
+    flex-direction: row;
+}
+
+footer .contact .section3 .facebook h2,
+footer .contact .section3 .twitter h2,
+footer .contact .section3 .instagram h2 {
+    margin-left: 12px;
+}
+
+footer .contact .section4 {
+    font-size: 14px;
+    margin-left: 107px;
+    margin-top: 60px;
+    flex: 1;
+    flex-shrink: 1;
+}
+
+footer .contact .section4 .input {
+    display: flex;
+    width: 272px;
+    align-items: flex-end;
+}
+
+footer .contact .section4 input {
+    margin-top: 20px;
+    background-color: #8B0DE6;
+    font-size: 12px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px 0 0 4px;
+    width: 210px;
+    height: 40px;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+footer .contact .section4 input::placeholder {
+    font-size: 12px;
+    color: white;
+}
+
+footer .contact .section4 input:focus {
+    outline: none;
+}
+
+footer .contact .section4 button {
+    background-color: white;
+    color: #8B0DE6;
+    font-size: 10px;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    width: 60px;
+    height: 40px;
+    margin-left: -4px;
+    margin-top: -4px;
+}
+
+footer .contact .section5 {
+    font-size: 12px;
+    width: 212px;
+    margin-top: 60px;
+    margin-left: 60px;
+    margin-bottom: 86px;
+}
+
+footer .contact .section5 h2 {
+    line-height: 2;
+}
+@media only screen and (max-width: 650px) {
+    footer .contact .section4 {
+        display: none;
+    }
+}

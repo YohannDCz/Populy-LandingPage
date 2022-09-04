@@ -1,0 +1,50 @@
+header {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+    background-color: #8B0DE6;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+
+header .logotype-nav {
+    display: flex;
+    align-items: center;
+}
+
+header .logotype {
+    font-size: 36px;
+    font-family: phosphate, sans-serif;
+    color: white;
+    margin: 32px;
+}
+
+header .logotype-nav .navigation ul {
+    display: flex;
+}
+
+header .logotype-nav .navigation ul li {
+    margin: 0 32px;
+}
+
+header .logotype-nav .navigation ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header .icons {
+    display: flex;
+    font-size: 24px;
+    color: white;
+    margin-right: 16px;
+}
+
+header .icon {
+    margin: 0 16px;
+}
